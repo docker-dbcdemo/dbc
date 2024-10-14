@@ -24,7 +24,7 @@ jobs:
           push: true
           context: https://github.com/distribution/distribution.git
           platforms: linux/amd64,linux/arm64
-          tag: dbckubecon2024demo/dbc:latest
+          tags: dbckubecon2024demo/dbc:latest
 
   gha:
     runs-on: ubuntu-latest
@@ -42,4 +42,4 @@ jobs:
           push: true
           context: https://github.com/distribution/distribution.git
           platforms: linux/amd64,linux/arm64
-          tag: dbckubecon2024demo/gha:latest
+          tags: dbckubecon2024demo/gha:latest
